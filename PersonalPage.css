@@ -1,0 +1,159 @@
+.img-fluid {
+    padding: 15px;
+}
+
+.container-fluid {
+    font: sans-serif;
+    /*background-image: url("https://i.pinimg.com/originals/a1/3d/a1/a13da190d8845b6ef905cfe7eb17ff39.jpg");*/
+    /*background-image: url("https://coolbackgrounds.io/images/unsplash/josh-bean-medium-9501ba9f.jpg");*/
+    /*background-image: url("https://i.pinimg.com/originals/a2/01/e7/a201e7a9542d3f1922670a205103aada.jpg");*/
+    /*background-image: url("https://www.demilked.com/magazine/wp-content/uploads/2016/01/rosy-magenta-dawn-morning-photography-alex-ugalnikov-26.jpg");*/
+    background-image: url("https://www.demilked.com/magazine/wp-content/uploads/2016/01/rosy-magenta-dawn-morning-photography-alex-ugalnikov-26.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+    height: 100%;
+    padding-bottom: 15px;
+}
+
+.sidenav {
+    align-self: center;
+    text-align: center;
+    height: 100%;
+    width: 110px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #222;
+    overflow-x: hidden;
+}
+
+.sidenav a {
+    padding: 10px 6px 10px 6px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 115px;
+    align-self: center;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+.main-bar {
+    font-size: 22px;
+    font-weight: 300;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+    margin-right: 5px;
+    margin-top: 15px;
+    padding: 5px 20px;
+}
+
+.main-bar:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, 255);
+    filter: blur(10px);
+    margin: -20px;
+}
+
+.main-about {
+    font-size: 22px;
+    font-weight: 300;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+    margin-right: 5px;
+    margin-top: 15px;
+    padding: 5px 20px;
+}
+
+.main-about:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, 255);
+    filter: blur(10px);
+    margin: -20px;
+}
+
+.main-experience {
+    font-size: 22px;
+    font-weight: 300;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+    margin-right: 5px;
+    margin-top: 15px;
+    padding: 5px 20px;
+}
+
+.main-experience:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, 255);
+    filter: blur(10px);
+    margin: -20px;
+}
+
+.main-contact {
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+    margin-right: 5px;
+    margin-top: 15px;
+    padding: 5px 20px;
+}
+
+.main-contact:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, 255);
+    filter: blur(10px);
+    margin: -20px;
+}
