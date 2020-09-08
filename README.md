@@ -1,2 +1,2 @@
-# [YMari.github.io](ymari.github.io)
+# [YMari.github.io](https://ymari.github.io/)
 Personal website made by myself about myself! (Last Updated: February 20, 2020)
