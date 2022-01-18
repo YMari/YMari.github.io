@@ -5,13 +5,16 @@
   "dependencies": {
     "@emotion/cache": "latest",
     "@emotion/react": "latest",
-    "@emotion/styled": "latest",
     "@emotion/server": "latest",
+    "@emotion/styled": "latest",
     "@mui/material": "latest",
+    "@mui/styled-engine-sc": "^5.1.0",
+    "@mui/system": "^5.2.2",
     "clsx": "latest",
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "styled-components": "^5.3.3"
   },
   "scripts": {
     "dev": "next",
